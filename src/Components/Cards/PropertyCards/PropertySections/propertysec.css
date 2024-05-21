@@ -2,7 +2,11 @@
     display: flex;
     justify-content: center;
 }
-
+.property-Header-container {
+    display: flex;
+    justify-content: space-between;
+     
+}
 .property-sec-container {
     display: flex;
     flex-wrap: wrap;
