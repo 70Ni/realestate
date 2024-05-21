@@ -1,0 +1,17 @@
+.countries-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+.countries-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countHeader {
+    max-width: 495px;
+    text-align: center;
+}

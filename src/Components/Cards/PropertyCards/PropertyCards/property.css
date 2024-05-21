@@ -1,0 +1,51 @@
+.propImg {
+    width: 158px;
+    height: 192px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center left; 
+    margin-right: 30px;
+}
+.Property-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #DCDCEB;
+    width: fit-content;
+    border-radius: 30px;
+    max-width: 540px;
+    margin: 12px;
+}
+.property-content-wrpr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.property-content,.property-Hold-details {
+    display: flex;
+    align-items: center ;
+    
+}
+.property-Hold-details {
+    margin-top: 14px;
+}
+.property-tag {
+    margin-right: 08px;
+}
+.postDetwrpr {
+    display: flex;
+}
+.postee-name {
+    margin-left: 08px;
+    font-weight: 500;
+    color: #585981;
+}
+.pricing {
+    padding: 6px 16px;
+    background-color: #585981;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin: 0px 20px;
+}

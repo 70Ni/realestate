@@ -1,0 +1,10 @@
+.property-section-wraper {
+    display: flex;
+    justify-content: center;
+}
+
+.property-sec-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
