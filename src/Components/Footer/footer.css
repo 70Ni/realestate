@@ -1,0 +1,57 @@
+.footer-wrapper {
+  display: flex;
+  max-width: 1200px;
+}
+
+.links-wrapper {
+  display: flex;
+  margin-right: 80px;
+  flex-grow: 2;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.about-company-wrappe {
+  flex-grow: 1;
+  max-width: 400px;
+}
+.take-tour-section,
+.ourcompany-section,
+.subscribe-section {
+  max-width: 200px;
+  margin-right: 80px;
+}
+.subscribe-section {
+  margin-right: 0px;
+}
+.social-icons {
+  display: flex;
+}
+.blog-input,
+.footerpara {
+  margin: 14px;
+}
+.inputcontainer {
+  border: 1px solid #58598182;
+  border-radius: 14px;
+  display: flex;
+}
+.socialIcon {
+  width: 24px;
+  margin: 14px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  border-radius: 8px;
+  border: none;
+  padding: 0px 20px;
+  background-color: rgba(240, 248, 255, 0);
+  width: 100%;
+  font-size: 14px;
+  color: #585981;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}

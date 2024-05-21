@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .Header1 {
   font-family: "Poppins", sans-serif;
@@ -9,10 +8,65 @@
   color: #110229;
   margin-bottom: 18px;
 }
+.Header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
+  color: #110229;
+  margin-bottom: 18px;
+}
+
+.subHeader {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #110229;
+  margin-bottom: 18px;
+}
+.cardheader {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  color: #585981;
+}
+.cardtext {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: #8f90a6;
+}
 .paragraph {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 22px;
+  color: #585981;
+}
+.footerHeader {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #110229;
+  margin: 14px;
+}
+.footertext {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #585981;
+  margin: 14px;
+  cursor: pointer;
+}
+.footerpara {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
   color: #585981;
 }
