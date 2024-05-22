@@ -1,6 +1,9 @@
 .footer-wrapper {
   display: flex;
+  justify-content: center;
+  
   max-width: 1200px;
+  margin-top: 98px;
 }
 
 .links-wrapper {
