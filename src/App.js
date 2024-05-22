@@ -18,10 +18,10 @@ function App() {
       <div className="Hero-wrapper">
         {/* <Search /> */}
         <Banner backImg={BannerImg} action={search}  />
-        <CountrySection />
-        <PropertySection />
+        {/* <CountrySection />
+        <PropertySection />*/}
         <Banner backImg={ BackImg02 } />
-        <Footer />
+        {/* <Footer />  */}
       </div>
     </div>
   );
