@@ -1,13 +1,15 @@
 import React from "react";
 import "./Banner.css";
+import Search from "../Search/Search";
+import Accordion from "../Accordion/Accordion";
+import Button from "../Button/Button";
 
-import BannerImg from "../Images/BannerImage.png";
-
-function Banner() {
+function Banner({ backImg, action }) {
   return (
     <div
       className="Banner-wrapper"
-      style={{ backgroundImage: `url(${BannerImg})` }}>
+      style={{ backgroundImage: `url(${backImg})` }}
+    >
       <div className="Text-content">
         <div className="Header1">Easy way to find a perfect property</div>
         <div className="paragraph">
@@ -16,7 +18,10 @@ function Banner() {
           purchase or rental of real estate.
         </div>
       </div>
-      <div className="Action-wrapper"></div>
+      <div className="Action-wrapper">
+        {action ? <Search /> : <Button />}
+        
+      </div>
     </div>
   );
 }
