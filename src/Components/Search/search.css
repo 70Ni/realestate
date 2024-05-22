@@ -1,0 +1,39 @@
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 70px 0px;
+  
+}
+#searchInput {
+  padding-left: 14px !important;
+}
+.input-set {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.input-header {
+    color: #110229;
+    margin: 04px 14px;
+}
+.Property-wraper,
+.location-wraper,
+.price-wraper {
+  padding: 14px 30px;
+  margin: 20px;
+}
+.Property-wraper,
+.location-wraper {
+  border-right: 2px solid #8f90a64b;
+}
+.Inputs-wraper {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff8f;
+  backdrop-filter: blur(80px);
+  border-radius: 0px 20px 20px 20px;
+}
+.search-icon {
+    margin-right: 20px;
+}
