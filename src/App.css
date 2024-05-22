@@ -29,7 +29,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 28px;
+  font-size: 20px;
   color: #585981;
 }
 .cardtext {
@@ -69,4 +69,26 @@
   font-style: normal;
   font-size: 14px;
   color: #585981;
+}
+
+.Hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Navigationtext {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #110229;
+}
+.Button {
+  padding: 14px 32px;
+  background-color: #1DAEFF;
+  border-radius: 12px;
+  color: white;
+  width: fit-content;
+  margin: 80px 0px;
 }
