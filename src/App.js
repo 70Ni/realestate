@@ -16,11 +16,10 @@ function App() {
   return (
     <div className="App">
       <div className="Hero-wrapper">
-        {/* <Search /> */}
         <Banner backImg={BannerImg} action={search}  />
-        {/* <CountrySection />
-        <PropertySection />*/}
-        <Banner backImg={ BackImg02 } />
+         <CountrySection />
+         <PropertySection />
+        {/* <Banner backImg={ BackImg02 } /> */}
         {/* <Footer />  */}
       </div>
     </div>

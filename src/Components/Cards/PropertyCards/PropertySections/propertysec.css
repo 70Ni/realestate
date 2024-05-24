@@ -12,4 +12,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0px 40px ;
+}
+@media only screen and (max-width: 768px) {
+  .property-sec-container {
+    margin: 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 612px) {
+  .property-sec-container {
+    margin: 0px 20px;
+  }
 }

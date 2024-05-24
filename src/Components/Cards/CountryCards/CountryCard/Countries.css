@@ -1,18 +1,26 @@
+
+
 .country-card-wrapper {
-  min-width: 270px;
+  min-width: 200px;
+  padding: 20px;
   margin: 20px 10px;
   height: 426px;
   object-fit: fill;
   position: relative;
   border-radius: 30px;
   background-size: cover;
+  flex-grow: 1;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../../../Images/BannerImage.png");
 }
 .country-name {
-  padding-top: 44px;
+  padding-top: 20px;
   text-align: center;
   margin: 0 auto;
   width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .country-card-wrapper{
+    height: 220px;
+  }
 }

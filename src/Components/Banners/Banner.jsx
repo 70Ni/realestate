@@ -21,7 +21,7 @@ function Banner({ backImg, action }) {
             </div>
           </div>
         </div>
-        <div className="Action-wrapper">{action ? <Search /> : <Button />}</div>
+        <div className="Action-wrapper">{action ==false ? <Search /> : <Button />}</div>
       </div>
     </div>
   );
