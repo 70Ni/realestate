@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./search.css";
 
-import location from "../Images/Instagram - Original.svg";
+import location from "../Images/Location.svg";
 import arrw from "../Images/ArrowDown.svg";
 import searchbutton from "../Images/search button.svg";
 import Accordion from "../Accordion/Accordion";
@@ -24,13 +24,13 @@ function Search() {
               id="searchInput"
               placeholder="Select your City"
             />
-            <img src={location} alt="" s />
+            <img src={location} alt="" />
           </div>
         </div>
         <div className="Property-wraper" onClick={() => setopen(!open)}>
           <div className="input-header footertext">Property Type</div>
           <div className="input-set">
-            <div className="footerpara">Choose property type</div>
+            <div className="footerpara propertySel">Choose property type</div>
             <img src={arrw} alt="" />
             {open ? (
               <Accordion

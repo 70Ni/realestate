@@ -21,11 +21,14 @@
 .location-wraper,
 .price-wraper {
   padding: 14px 30px;
-  margin: 20px;
+  margin: 20px 0px;
 }
 .Property-wraper,
 .location-wraper {
   border-right: 2px solid #8f90a64b;
+}
+.propertySel {
+    margin: 0px 14px !important;
 }
 .Inputs-wraper {
   display: flex;
