@@ -1,7 +1,7 @@
 import React from "react";
 import Counties from "./CountryCard/Counties";
 import "./ConntrySec.css";
-import america from "../../Images/BannerImage.png";
+import america from "../../Images/America.png";
 import france from "../../Images/France.png";
 import spain from "../../Images/Spain.png";
 import london from "../../Images/London.png";
